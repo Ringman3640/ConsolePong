@@ -150,7 +150,7 @@ int main() {
     startMenu();
 
     //Getting console size
-    //Code bellow is copied from quantum on stackoverflow.
+    //Code below is copied from quantum on stackoverflow.
     CONSOLE_SCREEN_BUFFER_INFO csbi;
 
     GetConsoleScreenBufferInfo(GetStdHandle(STD_OUTPUT_HANDLE), &csbi);
